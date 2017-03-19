@@ -1,0 +1,15 @@
+body{background: #90ee90 url(img/bg.jpg) ; margin: 0;padding: 0;
+font: 16px/24px Arial, Tahoma, sans-serif;}
+ a{text-decoration: none;}
+
+div.top{height: 215px}
+div.mid{ background:#fff; width: 1000px; margin: 0 auto; opacity: 0.9;
+	box-shadow: 2px 2px 7px -1px #777; transition: 2s;}
+
+h3{float: right; line-height: 40px;font-size: 40px;color: Gray; margin: 60px 70px 0 0}
+img{margin-left: 50px;}
+div.top{background: url(img/line.png) bottom repeat-x;}
+div.menu a{color: DimGray; } 
+div.menu a:hover {color: LightGray;} 
+div.menu ul li {display: inline-block;margin: 0 67px;}
+div.menu{background: url(img/line.png) bottom repeat-x; height: 50px}
