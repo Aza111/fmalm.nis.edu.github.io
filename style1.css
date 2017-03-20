@@ -25,6 +25,6 @@ nav ul li:hover ul ul{display: none;}
 
  div.video{margin: 10px 40px; }
  div.aim{float: right; width: 340px; text-align: center; color: #3b3b3b; border: solid 4px; 
- 	opacity: 0.9;  }
+ 	}
 
 div.clear{clear: both;}
