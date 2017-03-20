@@ -8,8 +8,23 @@ div.mid{ background:#fff; width: 1000px; margin: 0 auto; opacity: 0.9;
 
 h3{float: right; line-height: 40px;font-size: 40px;color: Gray; margin: 60px 70px 0 0}
 img{margin-left: 50px;}
-div.top{background: url(img/line.png) bottom repeat-x;}
-div.menu a{color: DimGray; } 
-div.menu a:hover {color: LightGray;} 
-div.menu ul li {display: inline-block;margin: 0 67px;}
-div.menu{background: url(img/line.png) bottom repeat-x; height: 50px}
+
+div.top{border-bottom: solid 10px #3b3b3b;}
+a{color: DimGray; position: relative;} 
+nav{background: url(img/line.png) bottom repeat-x; height: 50px; width:1000px}
+a:hover {color: LightGray;} 
+nav ul {padding: 0;}
+nav ul li{display: inline-block; position: relative; text-align: center; width: 245.5px;
+ padding: 0; margin: 0;}
+ul ul{position: absolute;padding: 0; display: none;float: left;}
+ul ul li{margin-top: 10px;}
+ul ul li a{color: #3b3b3b}
+nav ul li:hover ul{display: block; background:#fff; width: 250px;
+text-align: center; padding: 0; margin: 0;border-bottom: solid 10px #3b3b3b;}
+nav ul li:hover ul ul{display: none;}
+
+ div.video{margin: 10px 40px; }
+ div.aim{float: right; width: 340px; text-align: center; color: #3b3b3b; border: solid 4px; 
+ 	opacity: 0.9;  }
+
+div.clear{clear: both;}
